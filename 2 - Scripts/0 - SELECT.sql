@@ -22,5 +22,9 @@ SELECT name, capital FROM us_state WHERE name = "Oregon";
 /* -------------------------------------------------------------------------------------------------*/
 
 SELECT * FROM us_state ORDER BY area_size DESC;
+SELECT * FROM us_state WHERE name LIKE "M%" ORDER BY name;
 
 /* -------------------------------------------------------------------------------------------------*/
+-- Challenge --
+
+SELECT * FROM us_state WHERE name LIKE "N%" ORDER BY capital;
