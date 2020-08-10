@@ -27,4 +27,9 @@ SELECT * FROM us_state WHERE name LIKE "M%" ORDER BY name;
 /* -------------------------------------------------------------------------------------------------*/
 -- Challenge --
 
-SELECT * FROM us_state WHERE name LIKE "N%" ORDER BY capital;
+SELECT * FROM us_state WHERE abreviation LIKE "N%" ORDER BY capital;
+
+/* -------------------------------------------------------------------------------------------------*/
+
+INSERT INTO club_member 
+SET first_name = "Leonardo", last_name = "Almeida", phone_number="0398212234";
