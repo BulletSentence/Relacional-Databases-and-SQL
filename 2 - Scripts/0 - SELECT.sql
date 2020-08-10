@@ -33,3 +33,7 @@ SELECT * FROM us_state WHERE abreviation LIKE "N%" ORDER BY capital;
 
 INSERT INTO club_member 
 SET first_name = "Leonardo", last_name = "Almeida", phone_number="0398212234";
+
+DELETE FROM club_member
+WHERE first_name = "Leonardo"
+AND last_name = "Almeida";
