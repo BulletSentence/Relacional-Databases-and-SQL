@@ -11,5 +11,5 @@ ORDER BY last_name;
 
 /* -------------------------------------------------------------------------------------------------*/
 
-SELECT * FROM us_state;
+SELECT * FROM us_state WHERE name = "California";
 
