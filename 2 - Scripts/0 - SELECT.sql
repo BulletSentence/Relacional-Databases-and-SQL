@@ -11,5 +11,9 @@ ORDER BY last_name;
 
 /* -------------------------------------------------------------------------------------------------*/
 
-SELECT * FROM us_state WHERE name = "California";
+SELECT name, capital FROM us_state WHERE name = "California";
 
+/* -------------------------------------------------------------------------------------------------*/
+/* Challenge */
+
+SELECT name, capital FROM us_state WHERE name = "Oregon";
